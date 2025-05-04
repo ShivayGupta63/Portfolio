@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--FONT- STYLE-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<!--HEADER DESIGN-->
+<header class="header">
+    <a href="#" class="logo">Portfolio</a>
+
+    <i class="fa-solid fa-bars" id= "#menu-icons"></i>
+
+    <nav class="navbar">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!--HOME SECTION DESIGN-->
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Hi, I am</h3>
+        <h1>Shivay Gupta</h1>
+        <h3>And I'm a<span> Data Analyst</span></h3>
+        <p>Data analytics is the process of inspecting, </p>
+        <div class="social-media">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+        <a href="#" class="btn">Dowload Resume</a>
+    </div>
+    <div class="home-img">
+        <img class="Mypic" src="Mypic.jpg" >
+    </div>
+</section>
+
+<!--ABOUT SECTION DESIGN-->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="IMG_20230526_154259_047.webp" alt="">
+    </div>
+
+    <div class="about-content">
+        <h2 class="heading">ABOUT <span>Me</span></h2>
+        <h3>Data Analytics</h3>
+        <p>Data analytics is the process of inspecting, cleansing, transforming, and modeling data with the goal of discovering useful information.</p>
+        <a href="#" class="btn">Read more</a>
+    </div>
+</section>
+
+<!--SKILLS SECTION DESIGN-->
+<section class="skills" id="skills">
+    <h2 class="heading">My <span>Skills</span></h2>
+
+    <div class="skills-container">
+        <div class="skills-box">
+            <i class="fa-regular fa-file-excel"></i>
+            <h3>Ms Excel</h3>
+            <p>An Excel spreadsheet can be interpreted as a collection of columns and rows that create a table. Rows and columns meet in a space termed a cell. Alphabetical letters are normally allocated to columns, and numbers are ordinarily allocated to rows. Each cell can contain a single piece of data, such as a numerical value, text, or formula.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="skills-box">
+            <i class="fa-solid fa-magnifying-glass-chart"></i>
+            <h3>Power BI</h3>
+            <p>Data Visualization and Business Intelligence toolImage courtesy of id-live.com
+                id-live.com
+                Power BI is a Data Visualization and Business Intelligence tool by Microsoft that converts data from different data sources to create various business intelligence reports. Microsoft Power BI makes it easy for businesses to spot trends, track performance, and make data-driven decisions.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+        
+
+        <div class="skills-box">
+            <i class="fa-solid fa-database"></i>
+            <h3>SQL</h3>
+            <p>SQL stands for Structured Query Language. It was developed by IBM Computer Scientists in the 1970s. By executing queries SQL can create, update, delete, and retrieve data in databases like MySQL, Oracle, PostgreSQL, etc. Overall, SQL is a query language that communicates with databases.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </div>
+</div>
+
+</section>
+
+<!--CONTACT SECTION DESIGN-->
+<section class="contact" id="contact">
+<h2 class="heading">Contact <span>Me</span></h2>
+
+<form action="#">
+    <div class="input-box">
+        <input type ="text" placeholder="Full Name">
+        <input type="email" placeholder="Email Address">
+    </div>
+    <div class="input-box">
+        <input type="Number" placeholder=" Moblie Number">
+        <input type="text" placeholder="Email Subject">
+    </div>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+    <input type="submit" value="Send Message" class="btn">
+</form>
+</section>
+
+<!--FOOTER DESIGN-->
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2024 by @shivaygupta</p>
+    </div>
+
+    <div class="footer-iconTop">
+        <a href="#home"> <i class="fa-solid fa-angle-up"></i></a>
+    </div>
+</footer>
+
+<!--SCROLL REVERAL JS-->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!--MAIN JS-->
+    <script src="portfolio.js"></script>
+</body>
+</html>
